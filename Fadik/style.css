@@ -53,6 +53,6 @@ body{
         justify-content: center; /* İçeriği yatay eksende ortala */
         align-items: center; /* İçeriği dikey eksende ortala */
         text-align: center; /* Gereksiz, ama içerik için eklendi */
-        height: 100vh; /* Ekranın tamamını kaplayacak şekilde ayarla */
+        height: 70%; /* Ekranın tamamını kaplayacak şekilde ayarla */
         /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);*/
 }
