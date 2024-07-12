@@ -1,0 +1,58 @@
+body{
+        background-color: #e4a692;
+        background-image: url('bg1.png');
+        background-size: 70%; 
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+}
+
+.music-player {
+        padding-top: 6px;
+        background-color:#094133;
+        width: 65%; 
+        height: 8%;
+        text-align: center;
+        margin-top: 50px;
+        display: block;
+        position: absolute;
+        top: 82%;
+        left: 18%;
+        border-radius: 40px;
+}
+
+#playButton {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-right: 10px;
+}
+
+#seekBar {
+        width: 75%;
+        margin-top: 10px;
+}
+
+#showImageButton {
+        display: block;
+        position: absolute;
+        border-radius: 40px;
+        width: 120px;
+        height: 60px;
+        background-color: cadetblue;
+        left: 45%;
+        top: 35%;
+}
+
+#imageContainer {
+        display: block; /* Flex container olarak ayarla */
+        position: absolute;
+        justify-content: center; /* İçeriği yatay eksende ortala */
+        align-items: center; /* İçeriği dikey eksende ortala */
+        text-align: center; /* Gereksiz, ama içerik için eklendi */
+        height: 100vh; /* Ekranın tamamını kaplayacak şekilde ayarla */
+        /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);*/
+}
